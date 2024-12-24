@@ -22,6 +22,7 @@ ul {
     gap: 80px; /* Espaciado entre los elementos */
     padding: 0; /* Eliminamos padding por defecto del ul */
     margin: 0; /* Eliminamos margen por defecto del ul */
+    
 }
 
 ul > li {
@@ -102,3 +103,54 @@ gap: 22vh;
 
 }
 
+.containerwhigetg{
+    display: flex;
+    justify-content: center;
+    gap: 27vh;
+    margin-top: 9vh;
+}
+
+.whidget_1 ,.whidget_2  {
+    width: 50px;
+    margin-left: 60px;
+}
+.whidget_3, .whidget_4{
+    width: 50px;
+}
+.whidget_3{
+    margin-left: 34px;
+}
+.whidget_4{
+    margin-left: 80px;
+    
+}
+
+.parr-whidget{
+    margin-top: 15px;
+}
+
+.title-superio-section{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-size: 8vh;
+    margin-bottom: 40px;
+    color: #454545;
+    margin-left: 79px;
+}
+
+.container-section{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-left: -20vh;
+}
+
+
+.grupo1_section{
+filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.379));
+}
+
+.grupo2_section{
+    max-width: 65vh;
+}
