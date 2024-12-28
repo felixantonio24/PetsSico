@@ -187,11 +187,58 @@ filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.379));
     font-size: 55px;
     color:#454545;
     margin-left: 80px;
+    margin-bottom: 90px;
     margin-top: 90px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 .container_section--2{
-    display:flex;
-    flex-wrap: wrap;
+margin-left: 355px;
+    display: flex;
+    max-width: 850px;
+}
+.cajon{
+display: flex;
+flex-wrap: wrap;
+gap:20px
+
+
+}
+h3{
+    text-align: center;
+}
+.stetoscopio{
+   margin-left: 65px;
+   margin-bottom: 30px;
+   margin-top: 10px;
+}
+.parr-section-2{
+ max-width: 25vh;
+ background-color: #075985;
+ height: 50px;
+ border-radius: 0px 0px 10px 10px;
+ justify-content: center;
+ text-align: center;
+}
+
+
+.conteiner-card{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+}
+
+
+
+.conteiner-card-2{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.conteiner-card-3 , .conteiner-card-4 , .conteiner-card-5,  .conteiner-card-6 , .conteiner-card-7 , .conteiner-card-8{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
 }
